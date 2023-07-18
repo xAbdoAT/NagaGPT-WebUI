@@ -1,0 +1,23 @@
+websocket-client
+python-dotenv
+requests
+tls-client
+pypasser
+names
+colorama
+curl_cffi
+aiohttp
+flask
+flask_cors
+streamlit
+selenium
+fake-useragent
+twocaptcha
+pydantic
+pymailtm
+Levenshtein
+retrying
+numpy>=1.22.2 # pinned to avoid a vulnerability
+tornado>=6.3.2 # pinned to avoid a vulnerability
+PyExecJS
+openai
