@@ -31,10 +31,7 @@ The project is hosted on multiple platforms to be tested and modified.
   - [Install Dependencies](#install-dependencies-wrench)  
 - [Running the Application](#running-the-application-rocket)  
 - [Docker](#docker-)  
-  - [Prerequisites](#prerequisites)  
-  - [Running the Docker](#running-the-docker)
-- [Incorporated Projects](#incorporated-projects-busts_in_silhouette)
-
+  - [Prerequisites](#prerequisites) 
 ##
 
 # Getting Started :white_check_mark:  
@@ -80,36 +77,4 @@ http://127.0.0.1:1338
 or
 ```
 http://localhost:1338
-```
-
-## Docker 🐳
-### Prerequisites
-Before you start, make sure you have installed [Docker](https://www.docker.com/get-started) on your machine.
-
-### Get your API key
-Get your API key from the [ChimeraGPT Discord](https://discord.gg/chimeragpt).
-
-### Running the Docker
-Pull the Docker image from Docker Hub:
-```
-docker pull xAbdoAT/ChimeraGPT-WebUI
-```
-
-Run the application using Docker:
-```
-docker run -p 1338:1338 -e CHIMERA_API_KEY=<API-Key> xAbdoAT/ChimeraGPT-WebUI
-```
-
-Access the application in your browser using the URL:
-```
-http://127.0.0.1:1338
-```
-or
-```
-http://localhost:1338
-```
-
-When you're done using the application, stop the Docker containers using the following command:
-```
-docker stop <container-id>
 ```
