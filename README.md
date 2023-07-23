@@ -30,8 +30,6 @@ The project is hosted on multiple platforms to be tested and modified.
   - [Cloning the Repository](#cloning-the-repository-inbox_tray)  
   - [Install Dependencies](#install-dependencies-wrench)  
 - [Running the Application](#running-the-application-rocket)  
-- [Docker](#docker-)  
-  - [Prerequisites](#prerequisites) 
 ##
 
 # Getting Started :white_check_mark:  
