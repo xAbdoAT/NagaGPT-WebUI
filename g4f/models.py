@@ -12,6 +12,11 @@ class Model:
         base_provider: str = 'openai'
         best_provider: Provider.Provider = Provider.Chimera
 
+    class gpt_35_turbo_0301:
+        name: str = 'gpt-3.5-turbo-0301'
+        base_provider: str = 'openai'
+        best_provider: Provider.Provider = Provider.Chimera
+
     class gpt_35_turbo_poe:
         name: str = 'gpt-3.5-turbo-poe'
         base_provider: str = 'poe'
@@ -32,8 +37,8 @@ class Model:
         base_provider: str = 'reversed'
         best_provider: Provider.Provider = Provider.Chimera
 
-    class gpt_4_0613:
-        name: str = 'gpt-4-0613'
+    class gpt_4_0314:
+        name: str = 'gpt-4-0314'
         base_provider: str = 'reversed'
         best_provider: Provider.Provider = Provider.Chimera
 
@@ -72,15 +77,32 @@ class Model:
         base_provider: str = 'poe'
         best_provider: Provider.Provider = Provider.Chimera
 
+    class llama_2_7b_chat:
+        name: str = 'llama-2-7b-chat'
+        base_provider: str = 'llama'
+        best_provider: Provider.Provider = Provider.Chimera
+
+    class llama_2_13b_chat:
+        name: str = 'llama-2-13b-chat'
+        base_provider: str = 'llama'
+        best_provider: Provider.Provider = Provider.Chimera
+
+    class llama_2_70b_chat:
+        name: str = 'llama-2-70b-chat'
+        base_provider: str = 'llama'
+        best_provider: Provider.Provider = Provider.Chimera
+
+
 
 class ModelUtils:
     convert: dict = {
         'gpt-3.5-turbo': Model.gpt_35_turbo,
+        'gpt-3.5-turbo-0301': Model.gpt_35_turbo_0301,
         'gpt-3.5-turbo-poe': Model.gpt_35_turbo_poe,
         'gpt-3.5-turbo-16k': Model.gpt_35_turbo_16k,
         'gpt-3.5-turbo-16k-poe': Model.gpt_35_turbo_16k_poe,
         'gpt-4': Model.gpt_4,
-        'gpt-4-0613': Model.gpt_4_0613,
+        'gpt-4-0314': Model.gpt_4_0314,
         'gpt-4-poe': Model.gpt_4_poe,
         'gpt-4-32k': Model.gpt_4_32k,
         'gpt-4-32k-poe': Model.gpt_4_32k_poe,
@@ -88,6 +110,10 @@ class ModelUtils:
         'claude-instant-100k': Model.claude_instant_100k,
         'claude-instant': Model.claude_instant,
         'claude-2-100k': Model.claude_2_100k,
+
+        'llama-2-7b-chat': Model.llama_2_7b_chat,
+        'llama-2-13b-chat': Model.llama_2_13b_chat,
+        'llama-2-70b-chat': Model.llama_2_70b_chat,
 
         'sage': Model.sage,
     }
