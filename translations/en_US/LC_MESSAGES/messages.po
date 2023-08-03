@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://github.com/xAbdoAT/ChimeraGPT-WebUI/issues"
+"MIME-Version: 1.0\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#:
+msgid "New Conversation"
+msgstr "New Conversation"
+
+#:
+msgid "Clear Conversations"
+msgstr "Clear Conversations"
+
+#:
+msgid "API Key"
+msgstr "API Key"
+
+#:
+msgid "Ok"
+msgstr "Ok"
+
+#:
+msgid "Dark Mode"
+msgstr "Dark Mod"
+
+#:
+msgid "Language"
+msgstr "Language"
+
+#:
+msgid "Stop Generating"
+msgstr "Stop Generating"
+
+#:
+msgid "Ask a question"
+msgstr "Ask a question"
+
+#:
+msgid "IMAGE"
+msgstr "IMAGE"
+
+#:
+msgid "Default"
+msgstr "Default"
+
+#:
+msgid "DAN"
+msgstr "DAN"
+
+#:
+msgid "Evil"
+msgstr "Evil"
+
+#:
+msgid "Web Access"
+msgstr "Web Access"
+
+#:
+msgid "Version"
+msgstr "Version"
+
