@@ -9,6 +9,12 @@
 - gpt-4-32k
 - llama-2-70b-chat 
 
+<div align="center">
+  <a href="https://discord.gg/A3ugy7GVVv">
+    <img src="https://discordapp.com/api/guilds/1043430855818878986/widget.png?style=banner2">
+  </a>
+</div>
+
 <br>
 
 ## 🔑 <strong>REQUIRE API KEY BUT IT'S FREE</strong> 
